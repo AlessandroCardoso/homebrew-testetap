@@ -6,7 +6,7 @@ class I9corpUid < Formula
 
     def install
         include.install Dir["include/*"]
-        lib.install "libi9corp-uid.a"
+        lib.install "lib/libi9corp-uid.a"
     end
 
     test do
