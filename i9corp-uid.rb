@@ -5,7 +5,7 @@ class I9corpUid < Formula
     depends_on "libxml2"
 
     def install
-        include.install "i9corp_entry_set.h", "i9corp_export.h", "i9corp_license_base.h", "i9corp_license.h", "i9corp_uid.h"
+        include.install Dir["include/*"]
         lib.install "libi9corp-uid.a"
     end
 
