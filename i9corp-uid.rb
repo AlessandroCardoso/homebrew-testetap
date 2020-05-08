@@ -1,7 +1,7 @@
 class I9corpUid < Formula
     desc "I9Corp Application to Identify Device"
     homepage "http://www.i9corp.com.br"
-    url "https://github.com/AlessandroCardoso/i9corp-uid/archive/0.0.3.tar.gz"
+    url "https://github.com/AlessandroCardoso/i9corp-uid/archive/0.0.4.tar.gz"
     depends_on "libxml2"
 
     def install
